@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(113, 168, 250);
+    align-items: center;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+div{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+
+}
+article {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+article > p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+p{
+    padding: 0px 0px;
+    margin: 10px;
+    
+}
