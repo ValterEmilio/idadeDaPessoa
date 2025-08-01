@@ -13,9 +13,9 @@ h1{
 
 }
 div{
-    align-items: left;
-    text-align: left;
-    padding: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 
 }
 article {
@@ -46,4 +46,7 @@ p{
     padding: 0px 0px;
     margin: 10px;
     
+}
+#resultado{
+    padding: 20px;
 }
