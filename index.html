@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>hora do dia </title>
+    <title>Verficador de Idade </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body  onload="iniciarRelogio()" onload="carregar()" >
-    <header><h1 id="mudar">Hoje o Dia está Lindo!</h1></header>
+<body>
+    <header><h1 id="mudar"> Verificador de Idade </h1></header>
 
     <article>
-        <div id="hora" >
-            agora são exatamente horas
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="textoAno" id="textoAno" min="1" max="2025">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+            <p> <input type="button" value="verificar" onclick="verificar()"></p>
+            
         </div>
-        <div id="imagem"><img id="img" src="manha.jpg" alt="imagem manha"></div>
+        <div id="resultado">
+            preencha os dados acima para ver o resultado!
+
+        </div>
     </article>
     <footer><p>desenvolvido por <strong>Valter Emilio</strong></p></footer>
     <script src="script.js"></script>
